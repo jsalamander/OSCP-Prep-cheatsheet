@@ -32,6 +32,8 @@ net group /domain
 Check for currently logged in high privileged users to steal their creds.
 Note that if we cannot directly attack a Domain Admin we must attack other users/machines to pivot.
 
+https://gitlab.com/kalilinux/packages/powersploit
+
 List all logged in users
 ```powershell
 PS C:\Tools\active_directory> Import-Module .\PowerView.ps1
@@ -78,6 +80,7 @@ using nslookup you can fin the ip of the given service.
 # Active Directory Attacks
 
 ## Cached Credentials
+https://github.com/gentilkiwi/mimikatz/releases
 
 Dump hashes for all users logged in to current workstation
 ```powershell
