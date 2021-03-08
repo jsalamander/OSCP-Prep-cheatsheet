@@ -81,6 +81,7 @@ using nslookup you can fin the ip of the given service.
 
 ## Cached Credentials
 https://github.com/gentilkiwi/mimikatz/releases
+https://book.hacktricks.xyz/windows/stealing-credentials
 
 Dump hashes for all users logged in to current workstation
 ```powershell
