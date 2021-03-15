@@ -18,3 +18,20 @@ netstat -anp TCP | find "4455"
 ```
 Nice summary of the oscp slides
 https://sushant747.gitbooks.io/total-oscp-guide/content/port_forwarding_and_tunneling.html
+
+
+# Chisel
+Get same version binaries for both hosts
+https://github.com/jpillora/chisel/releases
+
+https://0xdf.gitlab.io/2020/08/10/tunneling-with-chisel-and-ssf-update.html
+
+On attacker host (Kali)
+```bash
+./chisel server -p 8000 --reverse
+```
+
+on the edge host
+```bash
+./chisel client {edge_host_ip}:8000 R:socks
+```
