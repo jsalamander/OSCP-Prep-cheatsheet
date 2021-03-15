@@ -24,7 +24,9 @@ https://sushant747.gitbooks.io/total-oscp-guide/content/port_forwarding_and_tunn
 Get same version binaries for both hosts
 https://github.com/jpillora/chisel/releases
 
+### Tutos
 https://0xdf.gitlab.io/2020/08/10/tunneling-with-chisel-and-ssf-update.html
+https://medium.com/@vegardw/reverse-socks-proxy-using-chisel-the-easy-way-48a78df92f29
 
 On attacker host (Kali)
 ```bash
